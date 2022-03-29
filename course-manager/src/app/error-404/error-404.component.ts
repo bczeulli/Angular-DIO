@@ -7,4 +7,9 @@ import { Component } from "@angular/core";
 })
 export class Error404Component {
 
+    meuInput: string = "";
+    minhaFuncao(){
+    alert(this.meuInput);
+    }
+
 }
